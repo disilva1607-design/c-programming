@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+    int x, y, z;
+    scanf("%d %d %d", &x, &y, &z);
+    int remaining_weight = z - y;
+    int max_mangoes = remaining_weight / x;
+    printf("%d\n", max_mangoes);
+    return 0;
+}
