@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int A, B, correct, wrong, difference;
+    scanf("%d%d", &A, &B);
+    correct = A + B;
+    wrong = A * B;
+    difference = abs(correct - wrong);
+    printf("%d", difference);
+    return 0;
+}
